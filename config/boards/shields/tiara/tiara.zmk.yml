@@ -1,0 +1,11 @@
+file_format: "1"
+id: tiara
+name: tiara
+type: shield
+url: https://github.com/strayer/tiarakb/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - tiara_left
+  - tiara_right
