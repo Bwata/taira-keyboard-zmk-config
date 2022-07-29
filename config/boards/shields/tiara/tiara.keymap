@@ -42,15 +42,15 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                                              &kp N6  &kp N7  &kp N8     &kp N9   &kp N0     &kp BSPC
-&kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T                                                                                               &kp Y   &kp U   &kp I      &kp O    &kp P      &kp MINUS
-&kp LCTRL  &kp A   &kp S   &kp D   &kp F   &kp G                                                                                               &kp H   &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B                    &none            &none    &none          &kp LG(Space)                     &kp N   &kp M   &kp COMMA  &kp DOT  &kp SLASH  &none
-&none      &none   &none   &mt LALT BSPC            &mt LCMD Space  &mt LSHFT ENTER  &none    &kp LG(Space)  &lt Lower ENTER  &lt Raise Space                  &kp BSPC   &none    &none      &none
+&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                                             &kp N6  &kp N7  &kp N8     &kp N9   &kp N0     &kp BSPC
+&kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T                                                                                              &kp Y   &kp U   &kp I      &kp O    &kp P      &kp MINUS
+&kp LCTRL  &kp A   &kp S   &kp D   &kp F   &kp G                                                                                              &kp H   &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B                   &none            &none    &none          &kp LG(SPACE)                     &kp N   &kp M   &kp COMMA  &kp DOT  &kp SLASH  &none
+&none      &none   &none   &mt LALT BSPC           &mt LCMD SPACE  &mt LSHFT ENTER  &none    &kp LG(SPACE)  &lt LOWER ENTER  &lt RAISE SPACE                  &kp BSPC   &none    &none      &none
                         >;
                 };
 
@@ -65,15 +65,15 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&trans  &trans   &trans  &trans  &FSLH   &ASTRK                                                       &trans            &trans        &kp LG(UP)    &trans        &trans            &trans
-&trans  &none    &kp N7  &kp N8  &kp N9  &kp MINUS                                                    &kp LA(LS(LEFT))  &kp LA(LEFT)  &kp UP        &kp RA(LEFT)  &kp RA(RS(LEFT))  &kp RG(RC(UP))
-&trans  &kp DOT  &kp N4  &kp N5  &kp N6  &kp PLUS                                                     &kp LG(LEFT)      &kp LEFT      &kp DOWN      &kp RIGHT     &kp RG(RIGHT)     &kp RG(RC(DOWN))
-&trans  &kp N0   &kp N1  &kp N2  &kp N3  &kp EQUAL          &trans  &trans    &trans  &trans          &trans            &kp LG(LBKT)  &kp LG(DOWN)  &kp RG(LBKT)  &trans            &trans
-&trans  &trans   &trans  &trans                     &trans  &trans  &trans    &trans  &trans  &trans                                  &trans        &trans        &trans            &trans
+&trans  &trans   &trans  &trans  &kp FSLH  &kp ASTRK                                                    &trans            &trans        &kp LG(UP)    &trans        &trans            &trans
+&trans  &none    &kp N7  &kp N8  &kp N9    &kp MINUS                                                    &kp LA(LS(LEFT))  &kp LA(LEFT)  &kp UP        &kp RA(LEFT)  &kp RA(RS(LEFT))  &kp RG(RC(UP))
+&trans  &kp DOT  &kp N4  &kp N5  &kp N6    &kp PLUS                                                     &kp LG(LEFT)      &kp LEFT      &kp DOWN      &kp RIGHT     &kp RG(RIGHT)     &kp RG(RC(DOWN))
+&trans  &kp N0   &kp N1  &kp N2  &kp N3    &kp EQUAL          &trans  &trans    &trans  &trans          &trans            &kp LG(LBKT)  &kp LG(DOWN)  &kp RG(LBKT)  &trans            &trans
+&trans  &trans   &trans  &trans                       &trans  &trans  &trans    &trans  &trans  &trans                                  &trans        &trans        &trans            &trans
                         >;
                 };
 
@@ -88,14 +88,14 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&trans  &trans       &trans       &trans     &trans     &trans                                                                       &trans     &trans     &trans      &trans     &trans       &trans
-&trans  &kp EXCL     &kp AT       &kp POUND  &kp DLLR   &kp PRCNT                                                                     &kp CARET  &kp AMPS   &kp ASTRK   &kp MINUS  &kp PLUS     &PIPE
-&trans  &kp UNDER    &kp EQUAL    &kp DLLR   &kp LBRC   &kp RBRC                                                                      &kp RPAR   &kp LPAR   &kp COLON   &kp SEMI   &kp SQT      &DQT
-&trans  &kp GRAVE    &kp TILDE    &kp BSLH   &kp LBKT   &kp RBKT             &trans      &trans        &trans      &trans             &kp GT     &kp LT     &kp COMMA   &kp DOT    &kp SLASH    &QMARK
+&trans  &trans       &trans       &trans     &trans     &trans                                                                        &trans     &trans     &trans      &trans     &trans       &trans
+&trans  &kp EXCL     &kp AT       &kp POUND  &kp DLLR   &kp PRCNT                                                                     &kp CARET  &kp AMPS   &kp ASTRK   &kp MINUS  &kp PLUS     &kp PIPE
+&trans  &kp UNDER    &kp EQUAL    &kp DLLR   &kp LBRC   &kp RBRC                                                                      &kp RPAR   &kp LPAR   &kp COLON   &kp SEMI   &kp SQT      &kp DQT
+&trans  &kp GRAVE    &kp TILDE    &kp BSLH   &kp LBKT   &kp RBKT             &trans      &trans        &trans      &trans             &kp GT     &kp LT     &kp COMMA   &kp DOT    &kp SLASH    &kp QMARK
 &trans  &trans       &trans       &trans                           &trans    &trans      &trans        &trans      &trans    &trans                         &trans      &trans     &trans       &trans
                         >;
                 };
@@ -111,7 +111,7 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -134,7 +134,7 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
