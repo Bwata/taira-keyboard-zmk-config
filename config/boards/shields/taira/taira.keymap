@@ -42,15 +42,15 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                                              &kp N6  &kp N7  &kp N8     &kp N9   &kp N0     &kp BSPC
 &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T                                                                                               &kp Y   &kp U   &kp I      &kp O    &kp P      &kp MINUS
 &kp LCTRL  &kp A   &kp S   &kp D   &kp F   &kp G                                                                                               &kp H   &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B                    &none            &none    &none          &kp LG(Space)                     &kp N   &kp M   &kp COMMA  &kp DOT  &kp SLASH  &none
-&none      &none   &none   &mt LALT BSPC            &mt LCMD Space  &mt LSHFT ENTER  &none    &kp LG(Space)  &lt Lower ENTER  &lt Raise Space                  &kp BSPC   &none    &none      &none
+&kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B                    &none            &none    &none          &kp LG(SPACE)                     &kp N   &kp M   &kp COMMA  &kp DOT  &kp SLASH  &none
+&none      &none   &none   &mt LALT BSPC            &mt LCMD SPACE  &mt LSHFT ENTER  &none    &kp LG(SPACE)  &lt Lower ENTER  &lt Raise SPACE                  &kp BSPC   &none    &none      &none
                         >;
                 };
 
@@ -65,7 +65,7 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -88,7 +88,7 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -111,7 +111,7 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -134,7 +134,7 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | Meta | Alt  |             | Meta | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | Alt  | Meta | Alt  |             | Meta | SPACE| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
