@@ -70,9 +70,9 @@
  */
                         bindings = <
 &trans      &trans      &trans      &trans  &kp FSLH  &kp ASTRK                                                    &trans            &trans        &kp LG(UP)    &trans        &trans            &trans
-&trans      &none       &kp N7      &kp N8  &kp N9    &kp MINUS                                                    &kp LA(LS(LEFT))  &kp LA(LEFT)  &kp UP        &kp RA(LEFT)  &kp RA(RS(LEFT))  &kp RG(RC(UP))
+&trans      &none       &kp N7      &kp N8  &kp N9    &kp MINUS                                                    &kp LA(LS(LEFT))  &kp LA(LEFT)  &kp UP        &kp RA(RIGHT)  &kp RA(RS(RIGHT))  &kp RG(RC(UP))
 &trans      &kp DOT     &kp N4      &kp N5  &kp N6    &kp PLUS                                                     &kp LG(LEFT)      &kp LEFT      &kp DOWN      &kp RIGHT     &kp RG(RIGHT)     &kp RG(RC(DOWN))
-&trans      &kp N0      &kp N1      &kp N2  &kp N3    &kp EQUAL          &trans  &trans    &trans  &trans          &trans            &kp LG(LBKT)  &kp LG(DOWN)  &kp RG(LBKT)  &trans            &trans
+&trans      &kp N0      &kp N1      &kp N2  &kp N3    &kp EQUAL          &trans  &trans    &trans  &trans          &trans            &kp LG(LBKT)  &kp LG(DOWN)  &kp RG(RBKT)  &trans            &trans
 &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans                       &trans  &trans  &trans    &trans  &trans  &trans                                  &trans        &trans        &trans            &trans
                         >;
                 };
