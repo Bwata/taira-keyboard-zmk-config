@@ -1,6 +1,6 @@
 # Tiara Keyboard ZMK config
 
-This repository builds the latest ZMK firmware for the [Tiara Keyboard](https://github.com/strayer/tiara-keyboard).
+This repository builds the latest ZMK firmware for the [Taira Keyboard](https://github.com/strayer/taira-keyboard).
 
 1. download the `firmware` artifact from the latest [Action run]()
 2. attach one Tiara side to a computer by USB-C
