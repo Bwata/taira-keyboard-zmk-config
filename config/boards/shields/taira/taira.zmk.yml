@@ -1,6 +1,6 @@
 file_format: "1"
 id: tiara
-name: tiara
+name: Tiara
 type: shield
 url: https://github.com/strayer/tiarakb/
 requires: [pro_micro]

@@ -1,17 +1,17 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_tiara_LEFT
+if SHIELD_TIARA_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "tiara"
+	default "Tiara"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_tiara_LEFT || SHIELD_tiara_RIGHT
+if SHIELD_TIARA_LEFT || SHIELD_TIARA_RIGHT
 
 config ZMK_SPLIT
 	default y

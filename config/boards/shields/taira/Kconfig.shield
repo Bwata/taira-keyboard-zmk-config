@@ -1,8 +1,8 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_tiara_LEFT
+config SHIELD_TIARA_LEFT
 	def_bool $(shields_list_contains,tiara_left)
 
-config SHIELD_tiara_RIGHT
+config SHIELD_TIARA_RIGHT
 	def_bool $(shields_list_contains,tiara_right)
