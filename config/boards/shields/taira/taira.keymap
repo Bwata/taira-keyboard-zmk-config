@@ -92,10 +92,10 @@
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&trans  &trans       &trans       &trans     &trans     &trans                                                                       &trans     &trans     &trans      &trans     &trans       &trans
-&trans  &kp EXCL     &kp AT       &kp POUND  &kp DLLR   &kp PRCNT                                                                     &kp CARET  &kp AMPS   &kp ASTRK   &kp MINUS  &kp PLUS     &PIPE
-&trans  &kp UNDER    &kp EQUAL    &kp DLLR   &kp LBRC   &kp RBRC                                                                      &kp RPAR   &kp LPAR   &kp COLON   &kp SEMI   &kp SQT      &DQT
-&trans  &kp GRAVE    &kp TILDE    &kp BSLH   &kp LBKT   &kp RBKT             &trans      &trans        &trans      &trans             &kp GT     &kp LT     &kp COMMA   &kp DOT    &kp SLASH    &QMARK
+&trans  &trans       &trans       &trans     &trans     &trans                                                                        &trans     &trans     &trans      &trans     &trans       &trans
+&trans  &kp EXCL     &kp AT       &kp POUND  &kp DLLR   &kp PRCNT                                                                     &kp CARET  &kp AMPS   &kp ASTRK   &kp MINUS  &kp PLUS     &kp PIPE
+&trans  &kp UNDER    &kp EQUAL    &kp DLLR   &kp LBRC   &kp RBRC                                                                      &kp RPAR   &kp LPAR   &kp COLON   &kp SEMI   &kp SQT      &kp DQT
+&trans  &kp GRAVE    &kp TILDE    &kp BSLH   &kp LBKT   &kp RBKT             &trans      &trans        &trans      &trans             &kp GT     &kp LT     &kp COMMA   &kp DOT    &kp SLASH    &kp QMARK
 &trans  &trans       &trans       &trans                           &trans    &trans      &trans        &trans      &trans    &trans                         &trans      &trans     &trans       &trans
                         >;
                 };
