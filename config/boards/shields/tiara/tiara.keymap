@@ -41,7 +41,7 @@
                 compatible = "zmk,behavior-mod-morph";
                 label = "TIARA_VOLUME_IN_AND_OUT";
                 #binding-cells = <0>;
-                bindings = <&kp LC(LA(LS(LG(A))))>, <&kp LC(LA(LS(LG(tiara_volume))))>;
+                bindings = <&kp LC(LA(LS(LG(A))))>, <&kp LC(LA(LS(LG(B))))>;
                 mods = <(MOD_LGUI|MOD_RGUI)>;
             };
         };
